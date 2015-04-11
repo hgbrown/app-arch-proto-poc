@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="app-arch-proto-poc:war exploded">
+    <output-path>$PROJECT_DIR$/target/app-arch-poc</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="app-arch-proto-poc" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.silvermoongroup:smg-iaa-base:4.2.9.7" />
+          <element id="library" level="project" name="Maven: com.silvermoongroup:smg-iaa-common:4.2.9.7" />
+          <element id="library" level="project" name="Maven: com.silvermoongroup:smg-iaa-common-client:4.2.9.7" />
+          <element id="library" level="project" name="Maven: com.silvermoongroup:smg-iaa-contract-framework:4.2.9.7" />
+          <element id="library" level="project" name="Maven: com.silvermoongroup:smg-iaa-contract-framework-client:4.2.9.7" />
+          <element id="library" level="project" name="Maven: com.silvermoongroup:smg-iaa-spflite:4.2.9.7" />
+          <element id="library" level="project" name="Maven: com.silvermoongroup:smg-iaa-spflite-client:4.2.9.7" />
+          <element id="library" level="project" name="Maven: com.silvermoongroup:smg-iaa-party:4.2.9.7" />
+          <element id="library" level="project" name="Maven: com.silvermoongroup:smg-iaa-party-client:4.2.9.7" />
+          <element id="library" level="project" name="Maven: javax:javaee-api:6.0" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="app-arch-proto-poc/web/Web" />
+    </root>
+  </artifact>
+</component>
